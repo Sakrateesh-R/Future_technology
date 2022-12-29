@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Ramaraja&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Source+Code+Pro&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    position: relative;
+    background-color: whitesmoke;
+    background-image:  URL('./images/PortfolioBg.png');
+    
+    
+}
+h2{
+   
+}
+li{
+    font-family:Source Code Pro ;
+}
+#profile{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:solid white 2px;
+}
+.Header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(0,172,255,1) 84%);
+    position: sticky;
+    top:0;
+}
+/*Navigation list*/
+.nav-list{
+    /*background-color: green;*/
+    display:flex;
+    list-style:none;
+    padding:20px;
+    align-items: center;
+    font-weight:bolder;
+    color:aliceblue;
+    
+}
+.nav-list-items{
+    padding-right:40px
+}
+.nav-list a{
+    text-decoration: none;
+    color:inherit;
+}
+/*Profile rendring */
+.float-left{
+    display:flex;
+    align-items: center;
+    padding:15px;
+}
+.float-left h4{
+    padding-left:24px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:23px;
+    color:white;
+}
+/*Navigation hovering*/
+
+.nav-list li:hover{
+    color:rgb(4, 1, 59);
+    text-shadow: 2px 2px 4px white;
+    cursor: pointer;
+    transform:scale(1.2,1.2);
+    transition: transform 0.2s ease-in;
+}
+/* main sections */
+.intro{
+    color:white;
+    text-shadow: 4px 4px 5px black;
+    padding:10%;
+    text-align:center;
+    background-image: url('./images/PortfolioBg.png');
+    background-size: auto ;
+}
+.intro h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:45px;
+    padding:10px;
+}
+/*Animation for h1*/
+emp{
+    animation: saka;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes saka {
+    10%{color:aqua}
+    15%{color:orangered}
+    20%{color:yellowgreen}
+    25%{color:red}
+    30%{color:lime}
+    35%{color:pink}
+    40%{color:orangered}
+    45%{color:yellowgreen}
+    50%{color:red}
+    55%{color:lime}
+    60%{color:pink}
+
+
+}
+
+.intro h5{
+    padding-bottom: 30px;
+    font-size:20px;
+    text-shadow: black 16px 1px 10px;
+}
+.intro .btn{
+    padding:0.5% 5%;
+    border:none;
+    border-radius:10px;
+    color:white;
+    background: rgb(2,0,36);
+    background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(0,172,255,1) 84%);
+    font-weight: bolder;
+}
+
+.intro .btn:hover{
+    border:solid black 1px;
+    color:black;
+    text-shadow: 2px 2px 4px white;
+}
+
+/* About Section */
+
+.About-head{
+   margin-left: 40%;
+   margin-right: 40%;
+   color:white;
+   border-bottom: solid black 5px;
+   animation-name: line;
+   animation-iteration-count: infinite;
+   animation-duration: 2s;
+   animation-timing-function: ease-in-out;
+   animation-delay: 1s ;
+
+}
+@keyframes line {
+    0%{margin-left:0%;}
+    25%{margin-left:40%; ;width:.5%;}
+}
+
+progress{
+    color:black;
+}
+.resume{
+    text-decoration: none;
+    color:white;
+    background: rgb(2,0,36);
+    background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(0,172,255,1) 84%);
+    border-radius:25px;
+    padding:10px;
+    width:7%;
+    font-size:20px;
+    text-shadow:2px 2px 5px black;
+    box-shadow: 4px 2px 4px black;
+}
+.resume:hover{
+    transform:scale(1.2,1.2);
+    transition: transform 0.2s ease-in;
+}
+/*Sills edit*/
+.skills{
+    box-shadow: 2px 2px 5px black;
+    padding:20px 25px;
+    border-radius: 25px;
+    background-color:white ;
+}
+.skill-detail{
+    padding:20px;
+    flex-wrap: wrap;
+    /*box-shadow: 2px 2px 5px black;*/
+}
+.skill-detail > div{
+    padding:20px;
+    width:50%;
+} 
+.about-detail-context{
+    box-shadow: 2px 2px 5px black;
+    padding:20px;
+    border-radius: 25px;
+    background-color:white ;
+   
+}
+.about-detail-context p{
+    font-style: italic;
+    font-size:17px;
+    font-weight:bold;
+}
+.about-detail-context li{
+    font-size: 18px;
+    list-style: none;
+    
+}
+.about-detail-context li::before{
+    content: "✔ ";
+}
+.prg-lgk >li{
+    font-size:20px;
+    padding-top:20px;
+}
+/* Project section */
+.Projects{
+    background-color: whitesmoke;
+}
+.project-card-1{
+    background-color: #fff;
+    border-bottom:solid black 1px;
+}
+
+.project-card-2{
+    background-color: #fff;
+}
+
+.prj-img{
+    border-radius:15px;
+    box-shadow: 2px 2px 4px black;
+}
+.prj-h4 a{
+    text-decoration: none;
+    color:black;
+    cursor:pointer;
+    
+}
+.prj-h4 a:hover{
+    background: -webkit-linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 2px 2px black ;
+}
+/* Contact */
+/*
+.contact-container{
+    position:relative;
+}*/
+.contact-form{
+    width:100vw;
+    height:20vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(0,172,255,1) 84%);
+    color:white;
+    border-radius: 10px;
+    /*position: absolute;
+    top: 50%;
+    left: 25%;
+    z-index: -1;*/
+   
+}/*
+.cnt-btn{
+    padding:0.5% 5%;
+    border:none;
+    border-radius:10px;
+    color:white;
+    background: rgb(2,0,36);
+    background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(0,172,255,1) 84%);
+    font-weight: bolder;
+
+}
+.cnt-btn:hover{
+  
+    border:white solid 1px;
+    transform: scale3d(1.1,1.1,1.1);
+    transition: transform 0.08s ease-in-out ;
+    
+}*/
+.contact-form a{
+    color:white;
+    text-decoration: none;
+    border: solid 1px black;
+    padding:8px;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+
+.contact-form a:hover{
+    border-color:white;
+    background: rgb(2,0,36);
+    background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(0,172,255,1) 84%);
+    color:black;
+    font-weight: bolder;
+    text-shadow: white 1px 2px ;
+}
+
+.contact-form h2{
+    text-align :center;
+}
+
+/* Footer Section */
+.follow{
+    background-color: black;;
+}
+
+.flink:hover{
+    transform:scale(1.1,1.1);
+    transition: transform 0.2s ease-in;
+}
+
+.Footer-Container{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
