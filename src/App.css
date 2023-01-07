@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Ramaraja&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
 *{
     padding:0;
     margin:0;
 }
-body{
-    position: relative;
-    background-color: whitesmoke;
-    background-image:  URL('./images/PortfolioBg.png');
-    
-    
-}
+
 h2{
    
 }
@@ -212,6 +207,13 @@ progress{
 .about-detail-context li::before{
     content: "✔ ";
 }
+.about-para{
+    font-family: Noto Serif ;
+    text-shadow: black 2px 2px 80px;
+    word-spacing: 5px;
+    text-indent: 2px;
+    letter-spacing: 2px;
+}
 .prg-lgk >li{
     font-size:20px;
     padding-top:20px;
@@ -325,10 +327,10 @@ progress{
 }
 
 .Footer-Container{
-    position: fixed;
+    /* position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 .version-container{
@@ -346,4 +348,10 @@ progress{
 .About-container{
     display:flex;
     justify-content: space-evenly;
+    background-image: URL("./images/Aboutpage_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-Title {
+    padding-bottom: 5px;
 }
