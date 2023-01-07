@@ -10,7 +10,7 @@ export default function About(){
                         <h4 className="about-para">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;We are group of people who have been a manual quality assurance tester for more than 2 years having worked with various Domains across various Platforms with great skill sets and great vision, we are expertise in agile scrum methodology. We are transparent to the client such as reporting and maintaining hours etc.. and we will be available when ever you need assistance.</h4>
                        <p className="about-para">
                            I have some skill's in Software testing such as  Manually Testing and aslo in Automation testing.<br/>
-                           In the Automation Testing I've Known the following tech to test the software,
+                           In the Automation Testing I've Known the following tech to test the software. PLease contact us for any project request
                            <li>Selenium with Java</li>
                            <li>Selenium with Python</li>
                            <li>TestNG</li>
