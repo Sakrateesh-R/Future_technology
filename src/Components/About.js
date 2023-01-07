@@ -11,7 +11,7 @@ export default function About(){
                        Check out my work in the <w style={{color:"grey"}}><b>PROJECT</b></w> section</p>
                        <p className="about-para">
                            I have some skill's in Software testing such as  Manually Testing and aslo in Automation testing.<br/>
-                           In the Automation Testing I've Known the following tech to test the software,
+                           In the Automation Testing I've Known the following tech to test the software. PLease contact us for any project request
                            <li>Selenium with Java</li>
                            <li>Selenium with Python</li>
                            <li>TestNG</li>
