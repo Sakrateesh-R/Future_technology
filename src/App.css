@@ -7,8 +7,8 @@
     margin:0;
 }
 
-h2{
-   
+body{
+    
 }
 li{
     font-family:Source Code Pro ;
@@ -351,6 +351,7 @@ progress{
     background-image: URL("./images/Aboutpage_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .about-Title {
     padding-bottom: 5px;

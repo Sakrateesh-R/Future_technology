@@ -2,7 +2,7 @@
 export default function About(){
 
     return(
-        <div ClassName="About-container">
+        <div className="About-container">
              <div className="about-detail row" id="ABOUT">
                     
                     <div className="about-detail-context col col-sm-10 col-md-10 col-lg-12 mx-12">
