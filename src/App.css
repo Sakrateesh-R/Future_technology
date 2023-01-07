@@ -348,11 +348,26 @@ progress{
 .About-container{
     display:flex;
     justify-content: space-evenly;
-    background-image: URL("./images/Aboutpage_bg.jpg");
+    background-image: URL("./images/About_page.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 .about-Title {
     padding-bottom: 5px;
+}
+
+.about-list-sections{
+    margin-top: 50px;
+    display:flex;
+    justify-content:start;
+    
+}
+
+.about-list-sections h4{
+    font-family: Noto Serif ;
+    text-shadow: black 2px 2px 80px;
+    word-spacing: 5px;
+    text-indent: 2px;
+    letter-spacing: 2px;
 }
