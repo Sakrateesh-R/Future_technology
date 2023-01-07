@@ -14,10 +14,10 @@ export default function Navigation (){
             {/* <!--Navigation--> */}
             <nav class="navi">
                 <ul class="nav-list">
-                    <li class="nav-list-items"><a href="#HOME">HOME</a></li>
+                    <li class="nav-list-items"><a href="/">HOME</a></li>
                     <li class="nav-list-items"><a href="/About">ABOUT</a></li>
-                    <li class="nav-list-items"><a href="#PROJECT">PROJECTS</a></li>
-                    <li class="nav-list-items"> <a href="#CONTACT"> CONTACT</a></li>
+                    <li class="nav-list-items"><a href="/projects">PROJECTS</a></li>
+                    <li class="nav-list-items"> <a href="/contact"> CONTACT</a></li>
 
                 </ul>
             </nav>
@@ -36,16 +36,16 @@ export default function Navigation (){
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item " >
-                      <a class="nav-link active " id="H" href="#HOME">Home</a>
+                      <a class="nav-link active " id="H" href="/">Home</a>
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link" id ="A" href="#ABOUT">About</a>
+                        <a class="nav-link" id ="A" href="/About">About</a>
                       </li>
                       <li class="nav-item" >
-                          <a class="nav-link" id ="P" href="#PROJECT">Project's</a>
+                          <a class="nav-link" id ="P" href="/projects">Project's</a>
                         </li>
                         <li class="nav-item" >
-                          <a class="nav-link" id ="C" href="#CONTACT">Contact</a>
+                          <a class="nav-link" id ="C" href="/contact">Contact</a>
                         </li>
                         
                     {/* <!--<li class="nav-item dropdown">
