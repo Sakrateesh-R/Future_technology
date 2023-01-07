@@ -322,3 +322,11 @@ progress{
     bottom: 0;
     width: 100%;
 }
+
+.version-container{
+    color:whitesmoke;
+    position: fixed;
+    left: 90%;
+    bottom: 0;
+    width: 100%;
+}
