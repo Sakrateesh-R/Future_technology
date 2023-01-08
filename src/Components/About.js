@@ -50,7 +50,9 @@ export default function About(){
                                     <li>IOS 11 -16</li>
                                 </ul><br/>
                             </div>
+                            <p>Hello</p>
                         </div>
+                        
                        {/* <a className="resume mt-4" href="./Download's/Resume/Sakrateesh_Resume.pdf"download>Resume</a>
                         <div className="certification pt-5 pb-4">
                             <h3>Certification</h3>
@@ -69,6 +71,10 @@ export default function About(){
                     </div> */}
                         
                     </div>
+                    <div className="about-detail-context col col-sm-10 col-md-10 col-lg-12 mx-12">
+                        <h1 className="about-Title"><i><u>About us</u></i></h1> <br/>
+                        <h4 className="about-para">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;We are group of people who have been a manual quality assurance tester for more than 2 years having worked with various Domains across various Platforms with great skill sets and great vision, we are expertise in agile scrum methodology. We are transparent to the client such as reporting and maintaining hours etc.. and we will be available when ever you need assistance.</h4>
+                    </div>    
                 </div>
        
         

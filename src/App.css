@@ -125,6 +125,16 @@ emp{
     text-shadow: 2px 2px 4px white;
 }
 
+/* Home-page */
+.Home-Container{
+    display:flex;
+    justify-content: space-evenly;
+    background-image: URL("./images/About_page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 /* About Section */
 
 .About-head{
@@ -206,13 +216,15 @@ progress{
 }
 .about-detail-context li::before{
     content: "✔ ";
+    color:lime;
 }
 .about-para{
     font-family: Noto Serif ;
     text-shadow: black 2px 2px 80px;
-    word-spacing: 5px;
-    text-indent: 2px;
-    letter-spacing: 2px;
+    word-spacing: 6px;
+    text-indent: 3px;
+    letter-spacing: 2.5px;
+    
 }
 .prg-lgk >li{
     font-size:20px;
