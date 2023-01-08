@@ -16,7 +16,7 @@ export default function Navigation (){
                 <ul class="nav-list">
                     <li class="nav-list-items"><a href="/">HOME</a></li>
                     <li class="nav-list-items"><a href="/About">ABOUT</a></li>
-                    <li class="nav-list-items"><a href="/projects">PROJECTS</a></li>
+                    <li class="nav-list-items"><a href="/plans">PLANS</a></li>
                     <li class="nav-list-items"> <a href="/contact"> CONTACT</a></li>
 
                 </ul>
@@ -42,7 +42,7 @@ export default function Navigation (){
                         <a class="nav-link" id ="A" href="/About">About</a>
                       </li>
                       <li class="nav-item" >
-                          <a class="nav-link" id ="P" href="/projects">Project's</a>
+                          <a class="nav-link" id ="P" href="/plans">PLANS</a>
                         </li>
                         <li class="nav-item" >
                           <a class="nav-link" id ="C" href="/contact">Contact</a>

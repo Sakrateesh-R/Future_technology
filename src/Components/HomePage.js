@@ -57,17 +57,27 @@ export default function HomePage() {
                 </div>
                 
               
-                <div className="about-detail-context col col-sm-10 col-md-10 col-lg-12 mx-12">
-                    <h1 className="about-Title"><i><u>Why us ?</u></i></h1> <br/>
+                <div className="why-us about-detail-context col col-sm-10 col-md-10 col-lg-12 mx-12">
+                    
                     <div className="Homepage-list section">
+                        <h1 className="about-Title"><i><u>Why us ?</u></i></h1> <br/>
                         <ul>
                         <li>Cost efficient</li>
-                        <li>higher coverage</li>
-                        <li>Cost efficient</li>
+                        <li>Higher coverage</li>
+                        <li>Transparent to client</li>
                         <li>Higher coverage</li>
                         <li>Flexible working hours</li>
                         <li>Easy to reach</li>
                         <li>People with technical knowledge</li>
+
+                        </ul><br/>
+                    </div>
+                    <div className="Homepage-list section ">
+                        <h1 className="about-Title"><i><u>Our Plans.,</u></i></h1> <br/>
+                        <ul>
+                        <li><a href="/plan/basic">Basic Plan</a></li>
+                        <li><a href="/plan/basic">Advance Plan</a></li>
+                        <li><a href="/plan/basic">Pro Plan</a></li>
 
                         </ul><br/>
                     </div>

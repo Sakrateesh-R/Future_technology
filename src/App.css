@@ -387,3 +387,110 @@ progress{
     text-indent: 2px;
     letter-spacing: 2px;
 }
+
+.why-us a{
+   text-decoration: none;
+   font-family: Noto Serif ;
+    text-shadow: black 2px 2px 80px;
+    word-spacing: 6px;
+    text-indent: 3px;
+    letter-spacing: 2.5px;
+    color: white;
+    font-size: 24px;
+
+}
+
+.why-us a:hover{
+    color:orangered;
+    font-size: 26;
+    word-spacing: 8px;
+}
+
+/* Plans */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Ramaraja&display=swap");
+
+.Plan-container {
+  
+}
+.Plan-flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+/*Header content designing */
+.Plan-Header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    41deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 172, 255, 1) 84%
+  );
+  text-align: center;
+  height: 50vh;
+  color: white;
+  padding: 20px 50px 20px 50px;
+}
+.Plan-Header p {
+  padding-top: 20px;
+  text-align: center;
+}
+/* positioning */
+.plan-container {
+  display: flex;
+}
+
+
+.Plan-container {
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  padding: 20px;
+  width: 20%;
+}
+.plan-Title {
+  padding-top: 5%;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.plan-price {
+  display: flex;
+  /*flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px black;
+}
+.plan-wrapper #Cloud-design,
+#Cloud-design + h4 {
+  background: linear-gradient(
+    41deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 172, 255, 1) 84%
+  );
+}
+.plan-wrapper {
+  width: 90%;
+  margin-left: 5%;
+  height: 12vh;
+  background-color: aqua;
+  color: white;
+}
+
+.plan-wrapper h4 {
+  text-align: center;
+  color: white;
+}
+.Plan-list-Items li {
+  list-style: none;
+}
+.Plan-list li:before {
+  content: "✓ ";
+}
+
+
+
+
+
+
+
+
+
+
+
