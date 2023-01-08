@@ -51,26 +51,29 @@ export default function HomePage() {
                                 <li>IOS 11 -16</li>
                             </ul><br/>
                         </div>
+                    
                     </div>
-                    {/* <a className="resume mt-4" href="./Download's/Resume/Sakrateesh_Resume.pdf"download>Resume</a>
-                    <div className="certification pt-5 pb-4">
-                        <h3>Certification</h3>
-                        <li>Selenium Webdriver with Python FrameWork</li>
-                        <li>FULL-STACK DEVELOPER (MERN STACK) </li> 
-                    </div> */}
+
                 </div>
                 
-                {/* <div className="languageknown">
-                    <h4 style={{width:"100%"}}>Programming language's</h4>
-                    <ul className="prg-lgk">
-                        <li> C/C++</li>
-                        <li>JAVA</li>
-                        <li> PYTHON</li>  
-                    </ul>
-                </div> */}
+              
                 <div className="about-detail-context col col-sm-10 col-md-10 col-lg-12 mx-12">
                     <h1 className="about-Title"><i><u>Why us ?</u></i></h1> <br/>
+                    <div className="Homepage-list section">
+                        <ul>
+                        <li>Cost efficient</li>
+                        <li>higher coverage</li>
+                        <li>Cost efficient</li>
+                        <li>Higher coverage</li>
+                        <li>Flexible working hours</li>
+                        <li>Easy to reach</li>
+                        <li>People with technical knowledge</li>
+
+                        </ul><br/>
+                    </div>
+                {/*}
                     <h4 className="about-para">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Is to provide/support Freelancer's who develops Application, and doesn't have a full fledge time to test the application before handing the product over to the customer, to over-come this situation we are here to help Freelancer's in testing the application and let them know, if there are any bug/defects in it, so that they can fix the defect/bug and provide the best application to their customer</h4>
+                */}
                 </div>    
             </div>
         </div>

@@ -218,6 +218,10 @@ progress{
     content: "✔ ";
     color:lime;
 }
+.Homepage-list section::before{
+    content:"•";
+    color:#E16541
+}
 .about-para{
     font-family: Noto Serif ;
     text-shadow: black 2px 2px 80px;
