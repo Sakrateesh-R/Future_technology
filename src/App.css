@@ -129,7 +129,7 @@ emp{
 .Home-Container{
     display:flex;
     justify-content: space-evenly;
-    background-image: URL("./images/About_page.jpg");
+    background-image: URL("./images/PortfolioBg.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -412,76 +412,14 @@ progress{
 .Plan-container {
   
 }
-.Plan-flex-container {
-  display: flex;
-  justify-content: space-around;
+.Plan-flex-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
 }
-/*Header content designing */
-.Plan-Header {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    41deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(0, 172, 255, 1) 84%
-  );
-  text-align: center;
-  height: 50vh;
-  color: white;
-  padding: 20px 50px 20px 50px;
-}
-.Plan-Header p {
-  padding-top: 20px;
-  text-align: center;
-}
-/* positioning */
-.plan-container {
-  display: flex;
-}
-
-
-.Plan-container {
-  background-color: white;
-  box-shadow: 2px 2px 5px black;
-  padding: 20px;
-  width: 20%;
-}
-.plan-Title {
-  padding-top: 5%;
-  padding-bottom: 15px;
-  text-align: center;
-}
-.plan-price {
-  display: flex;
-  /*flex-direction: row; */
-  justify-content: center;
-  align-items: center;
-  text-shadow: 2px 2px 4px black;
-}
-.plan-wrapper #Cloud-design,
-#Cloud-design + h4 {
-  background: linear-gradient(
-    41deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(0, 172, 255, 1) 84%
-  );
-}
-.plan-wrapper {
-  width: 90%;
-  margin-left: 5%;
-  height: 12vh;
-  background-color: aqua;
-  color: white;
-}
-
-.plan-wrapper h4 {
-  text-align: center;
-  color: white;
-}
-.Plan-list-Items li {
-  list-style: none;
-}
-.Plan-list li:before {
-  content: "✓ ";
+.plan-container{
+    width:30%;
+    padding:10px;
 }
 
 

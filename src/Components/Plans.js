@@ -53,34 +53,36 @@ const cloudPlans = [
 export default function Plans() {
   return (
     <div className="Plan-container">
-        <div className="Plan-Header">
-            <h1>{head.name}</h1>
-            <p>{head.text}</p>
-        </div>
-        <div className="Plan-flex-container">
-            {cloudPlans.map((plan) => (
-            <div className="plan-container " id={plan.id} key={plan.plan}>
-                <h3 className="plan-Title">{plan.plan}</h3>
-                <div className="plan-wrapper">
-                <div className="plan-price" id={plan.id1}>
-                    <h2>{plan.price}</h2>
+        <div className = "Plan-body">
+            <div className="Plan-Header">
+                <h1>{head.name}</h1>
+                <p>{head.text}</p>
+            </div><br/>
+            <div className="Plan-flex-container">
+                {cloudPlans.map((plan) => (
+                <div className="plan-container " id={plan.id} key={plan.plan}>
+                    <h3 className="plan-Title">{plan.plan}</h3>
+                    <div className="plan-wrapper">
+                    <div className="plan-price" id={plan.id1}>
+                        <h2>{plan.price}</h2>
+                    </div>
+                    <h4>MONTHLY</h4>
+                    </div>
+                    <br />
+                    <p>{plan.text}</p>
+                    <div className="Plan-list-container">
+                    <ul className="Plan-list-Items">
+                        <li>{plan.storage}</li>
+                        <li>{plan.dataTransfer}</li>
+                        <li>{plan.panel}</li>
+                        <li>{plan.support}</li>
+                        <li>{plan.themes}</li>
+                        <li>{plan.others}</li>
+                    </ul>
+                    </div>
                 </div>
-                <h4>MONTHLY</h4>
-                </div>
-                <br />
-                <p>{plan.text}</p>
-                <div className="Plan-list-container">
-                <ul className="Plan-list-Items">
-                    <li>{plan.storage}</li>
-                    <li>{plan.dataTransfer}</li>
-                    <li>{plan.panel}</li>
-                    <li>{plan.support}</li>
-                    <li>{plan.themes}</li>
-                    <li>{plan.others}</li>
-                </ul>
-                </div>
+                ))}
             </div>
-            ))}
         </div>
     </div>
   );
