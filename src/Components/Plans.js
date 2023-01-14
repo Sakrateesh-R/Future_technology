@@ -10,10 +10,10 @@ const cloudPlans = [
     plan: "BASIC PLAN",
     price: "₹ 100/hr",
     text:
-      "Key goal is to provide Exploratory Testing",
-    testcaseDesign: " Testcases and Scenarios will not be share with customers",
+      "For Basic Testing - No min hrs ",
+    testcaseDesign: " Testcases and Scenarios will not be shared with customers",
     browsers: "One Browser",
-    mobileTest: "Mobile Testing provided for last 2 version",
+    mobileTest: "Mobile Testing provided for Current market version only ",
     support: "24/7 Support",
     testing: "Exploratory Testing",
     reports: "Bugs & Test coverage report will be shared",
@@ -25,13 +25,12 @@ const cloudPlans = [
     plan: "ADVANCE PLAN",
     price: "₹ 90/hr",
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    storage: "1 TB Cloud Space",
-    dataTransfer: "8 TB Data Transfer",
-    panel: "Fully Managed Panel",
-    support: "15-minute Quick Support",
-    themes: "Unlimited Web Addons",
-    others: "Cancel or Upgrade Anytime",
+      "For Advance Testing - Min 5 hrs",
+    browsers: "2 Browsers (Customer's wish )",
+    mobileTest: "Mobile Testing provided for Current market version + previous 1 versions ",
+    support: "24/7 Support",
+    testing: "Functional, Exploratory Testing, build Testing ",
+    reports: "Bugs, Test Coverage & Release report will be shared",
     tag: "SELECT PLAN"
   },
   {
@@ -39,13 +38,12 @@ const cloudPlans = [
     plan: "PRO PLAN",
     price: "₹ 80/hr",
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    storage: "4 TB Cloud Space",
-    dataTransfer: "20 TB Data Transfer",
-    panel: "Fully Managed Panel",
-    support: "15-minute Quick Support",
-    themes: "Top Notch Web Apps",
-    others: "Advanced Scalable",
+      "FOr Professional Testing",
+      browsers: "3 Browsers",
+      mobileTest: "Mobile Testing provided for Current market version + previous 2 versions",
+      support: "24/7 Support",
+      testing: "Functional, Exploratory Testing, Build Testing, Regression Testing , sanity Testing , UI Testing ,Compatibility ",
+      reports: "Bugs, Test Coverage & Release report will be shared",
     tag: "TAKE IT NOW"
   }
 ];
