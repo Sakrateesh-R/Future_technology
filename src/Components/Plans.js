@@ -1,3 +1,4 @@
+import { Tooltip } from "react-tooltip";
 
 const head = {
   name: "Software Testing Plans",
@@ -7,10 +8,10 @@ const head = {
 const cloudPlans = [
   {
     id: "Basic",
+    id1: "Basic-plan",
     plan: "BASIC PLAN",
     price: "₹ 100/hr",
-    text:
-      "For Basic Testing - No min hrs ",
+    text:"For Basic Testing - No min hrs ",
     testcaseDesign: " Testcases and Scenarios will not be shared with customers",
     browsers: "One Browser",
     mobileTest: "Mobile Testing provided for Current market version only ",
@@ -21,11 +22,11 @@ const cloudPlans = [
   },
   {
     id: "Advance",
-    id1: "ADVANCE PLAN",
+    id1: "Advance-plan",
     plan: "ADVANCE PLAN",
     price: "₹ 90/hr",
-    text:
-      "For Advance Testing - Min 5 hrs",
+    text:"For Advance Testing - Min 5 hrs",
+    testcaseDesign: " Testcases and Scenarios will be shared with customers",
     browsers: "2 Browsers (Customer's wish )",
     mobileTest: "Mobile Testing provided for Current market version + previous 1 versions ",
     support: "24/7 Support",
@@ -35,15 +36,16 @@ const cloudPlans = [
   },
   {
     id: "Pro",
+    id1: "Pro-plan",
     plan: "PRO PLAN",
     price: "₹ 80/hr",
-    text:
-      "FOr Professional Testing",
-      browsers: "3 Browsers",
-      mobileTest: "Mobile Testing provided for Current market version + previous 2 versions",
-      support: "24/7 Support",
-      testing: "Functional, Exploratory Testing, Build Testing, Regression Testing , sanity Testing , UI Testing ,Compatibility ",
-      reports: "Bugs, Test Coverage & Release report will be shared",
+    text:"For Professional Testing",
+    testcaseDesign: " Testcases and Scenarios will be shared with customers",
+    browsers: "3 Browsers",
+    mobileTest: "Mobile Testing provided for Current market version + previous 2 versions",
+    support: "24/7 Support",
+    testing: "Functional, Exploratory Testing, Build Testing, Regression Testing , sanity Testing , UI Testing ,Compatibility ",
+    reports: "Bugs, Test Coverage & Release report will be shared",
     tag: "TAKE IT NOW"
   }
 ];
@@ -61,10 +63,12 @@ export default function Plans() {
                 <div className="plan-container" key={plan.plan}>
                     <h1 className="plan-Title" id={plan.id}>{plan.plan}</h1>
                     <div className="plan-wrapper">
+                        <Tooltip anchorId={plan.id1}/>
                         <div className="plan-price" id={plan.id1}>
-                            <h2>{plan.price}</h2>
+                            <h2 data-tooltip-content={plan.price} >{plan.price}</h2>
                         </div>
                         <h4>Per Release</h4>
+                        
                     </div>
                     <br />
                     <h3 className="Plan-text">{plan.text}</h3>
