@@ -1,6 +1,6 @@
 
 const head = {
-  name: "Testing Plans",
+  name: "Software Testing Plans",
   text:
     "Come with us for testing and gain your customer's trust"
 };
@@ -37,7 +37,7 @@ const cloudPlans = [
   {
     id: "Pro",
     plan: "PRO PLAN",
-    price: "$ 72.25",
+    price: "₹ 80/hr",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.",
     storage: "4 TB Cloud Space",
@@ -60,13 +60,13 @@ export default function Plans() {
             </div><br/>
             <div className="Plan-flex-container">
                 {cloudPlans.map((plan) => (
-                <div className="plan-container " id={plan.id} key={plan.plan}>
+                <div className="plan-container" id={plan.id} key={plan.plan}>
                     <h3 className="plan-Title">{plan.plan}</h3>
                     <div className="plan-wrapper">
-                    <div className="plan-price" id={plan.id1}>
-                        <h2>{plan.price}</h2>
-                    </div>
-                    <h4>MONTHLY</h4>
+                        <div className="plan-price" id={plan.id1}>
+                            <h2>{plan.price}</h2>
+                        </div>
+                        <h4>Per Release</h4>
                     </div>
                     <br />
                     <p>{plan.text}</p>
