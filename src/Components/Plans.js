@@ -11,12 +11,12 @@ const cloudPlans = [
     price: "₹ 100/hr",
     text:
       "Key goal is to provide Exploratory Testing",
-    testcaseDesign: "Not share with customers",
+    testcaseDesign: " Testcases and Scenarios will not be share with customers",
     browsers: "One Browser",
-    panel: "Basic Managed Panel",
-    support: "24/7 Fast Support",
-    themes: "100 Premium Themes",
-    others: "Cancel or Upgrade Anytime",
+    mobileTest: "Mobile Testing provided for last 2 version",
+    support: "24/7 Support",
+    testing: "Exploratory Testing",
+    reports: "Bugs & Test coverage report will be shared",
     tag: "SELECT PLAN"
   },
   {
@@ -60,8 +60,8 @@ export default function Plans() {
             </div><br/>
             <div className="Plan-flex-container">
                 {cloudPlans.map((plan) => (
-                <div className="plan-container" id={plan.id} key={plan.plan}>
-                    <h3 className="plan-Title">{plan.plan}</h3>
+                <div className="plan-container" key={plan.plan}>
+                    <h1 className="plan-Title" id={plan.id}>{plan.plan}</h1>
                     <div className="plan-wrapper">
                         <div className="plan-price" id={plan.id1}>
                             <h2>{plan.price}</h2>
@@ -69,16 +69,16 @@ export default function Plans() {
                         <h4>Per Release</h4>
                     </div>
                     <br />
-                    <p>{plan.text}</p>
+                    <h3 className="Plan-text">{plan.text}</h3>
                     <div className="Plan-list-container">
-                    <ul className="Plan-list-Items">
-                        <li>{plan.storage}</li>
-                        <li>{plan.dataTransfer}</li>
-                        <li>{plan.panel}</li>
-                        <li>{plan.support}</li>
-                        <li>{plan.themes}</li>
-                        <li>{plan.others}</li>
-                    </ul>
+                        <ul className="Plan-list-Items">
+                            <li>{plan.testcaseDesign}</li>
+                            <li>{plan.browsers}</li>
+                            <li>{plan.mobileTest}</li>
+                            <li>{plan.support}</li>
+                            <li>{plan.testing}</li>
+                            <li>{plan.reports}</li>
+                        </ul>
                     </div>
                 </div>
                 ))}
