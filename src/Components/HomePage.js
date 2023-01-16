@@ -6,12 +6,12 @@ export default function HomePage() {
             
             <div className="about-detail row" id="ABOUT">
                 
-                <div className="about-detail-context col col-sm-10 col-md-10 col-lg-12 mx-12">
+                <div className="about-detail-context">
                     <h1 className="about-Title"><i><u>Our Vision</u></i></h1> <br/>
                     <h4 className="about-para">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Is to provide/support Freelancer's who develops Application, and doesn't have a full fledge time to test the application before handing the product over to the customer, to over-come this situation we are here to help Freelancer's in testing the application and let them know, if there are any bug/defects in it, so that they can fix the defect/bug and provide the best application to their customer</h4>
                     <div className="about-list-sections">
                         <div className="about-list-section-1">
-                            <ul className="about-detail-context">
+                            <ul className="about-detail-context ">
                                 <h4>Types of testing provided us.,</h4>
                                 <li>Black box Testing</li>
                                 <li>Smoke Test</li>
@@ -75,9 +75,9 @@ export default function HomePage() {
                     <div className="Homepage-list section ">
                         <h1 className="about-Title"><i><u>Our Plans.,</u></i></h1> <br/>
                         <ul>
-                        <li><a href="/plan/basic">Basic Plan</a></li>
-                        <li><a href="/plan/basic">Advance Plan</a></li>
-                        <li><a href="/plan/basic">Pro Plan</a></li>
+                        <li><a href="/plans/#Basic">Basic Plan</a></li>
+                        <li><a href="/plans/#Advance">Advance Plan</a></li>
+                        <li><a href="/plans/#Pro">Pro Plan</a></li>
 
                         </ul><br/>
                     </div>

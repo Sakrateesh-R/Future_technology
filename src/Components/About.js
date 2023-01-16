@@ -50,7 +50,7 @@ export default function About(){
                                     <li>IOS 11 -16</li>
                                 </ul><br/>
                             </div>
-                            <p>Hello</p>
+                            
                         </div>
                         
                        {/* <a className="resume mt-4" href="./Download's/Resume/Sakrateesh_Resume.pdf"download>Resume</a>

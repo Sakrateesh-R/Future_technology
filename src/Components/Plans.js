@@ -58,17 +58,17 @@ export default function Plans() {
                 <h1>{head.name}</h1>
                 <p>{head.text}</p>
             </div><br/>
-            <div className="Plan-flex-container">
+            <div className="Plan-flex-container row ">
                 {cloudPlans.map((plan) => (
                 <div className="plan-container" key={plan.plan}>
                     <h1 className="plan-Title" id={plan.id}>{plan.plan}</h1>
                     <div className="plan-wrapper">
                         
-                        <div className="plan-price" id={plan.id1}>
-                            <h2 data-for="price" data-tip={plan.price}>{plan.price}</h2>
-                        </div>
-                        <Tooltip place="bottom" id="price"/>
-                        <h4>Per Release</h4>
+                      <div className="plan-price" id={plan.id1}>
+                          <h2 data-for="price" data-tip={plan.price}>{plan.price}</h2>
+                      </div>
+                      <Tooltip place="bottom" id="price"/>
+                      <h4>Per Release</h4>
                         
                     </div>
                     <br />
