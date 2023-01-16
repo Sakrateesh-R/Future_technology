@@ -63,10 +63,11 @@ export default function Plans() {
                 <div className="plan-container" key={plan.plan}>
                     <h1 className="plan-Title" id={plan.id}>{plan.plan}</h1>
                     <div className="plan-wrapper">
-                        <Tooltip anchorId={plan.id1}/>
+                        
                         <div className="plan-price" id={plan.id1}>
-                            <h2 data-tooltip-content={plan.price} >{plan.price}</h2>
+                            <h2 data-for="price" data-tip={plan.price}>{plan.price}</h2>
                         </div>
+                        <Tooltip place="bottom" id="price"/>
                         <h4>Per Release</h4>
                         
                     </div>

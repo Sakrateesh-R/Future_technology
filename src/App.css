@@ -334,8 +334,11 @@ progress{
 }
 
 /* Footer Section */
-.follow{
-    background-color: black;;
+.footer-flex-container{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 5%;
 }
 
 .flink:hover{
@@ -507,13 +510,23 @@ progress{
 }
 
 /* Contact Us Container */
-.contact-container{
+/* .contact-container{
     background-image: url("./images/contact-us.jpg");
     background-repeat: no-repeat;   
     background-size: cover;
+} */
+.contact-header{
+    display:flex;
+    justify-content: space-between;
 }
-
-
+.contact-title-email{
+    color:rgb(9, 128, 240);
+    font-family:Noto Serif ;
+    text-shadow: black 2px 2px 5px;
+}
+.Footer-Container{
+    background-color: black;
+}
 
 
 
