@@ -58,7 +58,7 @@ export default function Plans() {
                 <h1>{head.name}</h1>
                 <p>{head.text}</p>
             </div><br/>
-            <div className="Plan-flex-container row ">
+            <div className="Plan-flex-container">
                 {cloudPlans.map((plan) => (
                 <div className="plan-container" key={plan.plan}>
                     <h1 className="plan-Title" id={plan.id}>{plan.plan}</h1>

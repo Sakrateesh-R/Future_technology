@@ -8,7 +8,7 @@ export default function HomePage() {
                 
                 <div className="about-detail-context">
                     <h1 className="about-Title"><i><u>Our Vision</u></i></h1> <br/>
-                    <h4 className="about-para">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Is to provide/support Freelancer's who develops Application, and doesn't have a full fledge time to test the application before handing the product over to the customer, to over-come this situation we are here to help Freelancer's in testing the application and let them know, if there are any bug/defects in it, so that they can fix the defect/bug and provide the best application to their customer</h4>
+                    <h4 className="about-para">Is to provide/support Freelancer's who develops Application, and doesn't have a full fledge time to test the application before handing the product over to the customer, to over-come this situation we are here to help Freelancer's in testing the application and let them know, if there are any bug/defects in it, so that they can fix the defect/bug and provide the best application to their customer</h4>
                     <div className="about-list-sections">
                         <div className="about-list-section-1">
                             <ul className="about-detail-context ">

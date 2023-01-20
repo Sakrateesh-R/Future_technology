@@ -12,35 +12,35 @@ export default function Navigation (){
         </div>
         <div class="sticky-top d-none d-md-flex">
             {/* <!--Navigation--> */}
-            <nav class="navi">
-                <ul class="nav-list">
-                    <li class="nav-list-items"><a href="/">HOME</a></li>
-                    <li class="nav-list-items"><a href="/About">ABOUT</a></li>
-                    <li class="nav-list-items"><a href="/plans">PLANS</a></li>
+            <nav className="navi">
+                <ul className="nav-list">
+                    <li className="nav-list-items"><a href="/">HOME</a></li>
+                    <li className="nav-list-items"><a href="/About">ABOUT</a></li>
+                    <li className="nav-list-items"><a href="/plans">PLANS</a></li>
                 </ul>
             </nav>
         </div>
-        <nav class="navbar navbar-light  sticky-top  flex-sm-even d-md-none d-lg-none off-canvas">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#Demo"> Demo</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-light sticky-top  flex-sm-even d-md-none d-lg-none off-canvas">
+            <div className="container-fluid ">
+              <a className="navbar-brand" href="#Demo"></a>
+              <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span className="navbar-toggler-icon"></span>
               </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+              <div className="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div className="offcanvas-header">
+                  <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
                   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item " >
-                      <a class="nav-link active " id="H" href="/">Home</a>
+                <div className="offcanvas-body">
+                  <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li className="nav-item " >
+                      <a className="nav-link active " id="H" href="/">Home</a>
                     </li>
-                    <li class="nav-item" >
-                        <a class="nav-link" id ="A" href="/About">About</a>
+                    <li className="nav-item" >
+                        <a className="nav-link" id ="A" href="/About">About</a>
                       </li>
-                      <li class="nav-item" >
-                          <a class="nav-link" id ="P" href="/plans">PLANS</a>
+                      <li className="nav-item" >
+                          <a className="nav-link" id ="P" href="/plans">PLANS</a>
                       </li>
                         
                     {/* <!--<li class="nav-item dropdown">
