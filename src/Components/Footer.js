@@ -31,9 +31,9 @@ export default function Footer(){
 
                 </div>
             </div>
-        </div>        
+        </div>   
         <div className="version-container">
-            <p>version 0.20</p>
+            <p>Version 0.21</p>
         </div>
     </div>
 

@@ -550,6 +550,13 @@ progress{
         width:100%;
         margin:25px 0 0 0 ;
     }
+    .version-container{
+        color:whitesmoke;
+        position: fixed;
+        left: 70%;
+        bottom:-2%;
+        width: 100%;
+    }
     
   }
 
