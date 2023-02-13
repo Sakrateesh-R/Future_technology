@@ -1,5 +1,5 @@
 
-import image from "../images/Future_tech_logo.jpg";
+import image from "../images/TitleLogo.png";
 
 export default function Navigation (){
 
