@@ -12,7 +12,7 @@ export default function HomePage() {
                     <div className="about-list-sections">
                         <div className="about-list-section-1">
                             <ul className="about-detail-context ">
-                                <h4>Types of testing provided us.,</h4>
+                                <h4>Types of testing provided us</h4>
                                 <li>Black box Testing</li>
                                 <li>Smoke Test</li>
                                 <li>Functional Testing</li>
@@ -23,7 +23,7 @@ export default function HomePage() {
                                 <li>Build Verification Testing</li>
                             </ul><br/>
                             <ul className="about-detail-context">
-                                <h4>Gadgets available for Testing.,</h4>
+                                <h4>Gadgets available for Testing</h4>
                                 <li>IPhone SE</li>
                                 <li>IPad pro</li>
                                 <li>IPhone 6s</li>
@@ -34,7 +34,7 @@ export default function HomePage() {
                         </div>
                         <div className="about-list-section-2">
                         <ul className="about-detail-context">
-                                <h4>Quality assurance for customers.,</h4>
+                                <h4>Quality assurance for customers</h4>
                                 <li>Analyze,review and assess user requirements</li>
                                 <li>Test Scenarios</li>
                                 <li>Test-cases preparation</li>

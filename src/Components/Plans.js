@@ -1,4 +1,4 @@
-import { Tooltip } from "react-tooltip";
+// import { Tooltip } from "../react-tooltip";
 
 const head = {
   name: "Software Testing Plans",
@@ -67,7 +67,7 @@ export default function Plans() {
                       <div className="plan-price" id={plan.id1}>
                           <h2 data-for="price" data-tip={plan.price}>{plan.price}</h2>
                       </div>
-                      <Tooltip place="bottom" id="price"/>
+                      {/* <Tooltip place="bottom" id="price"/> */}
                       <h4>Per Release</h4>
                         
                     </div>
