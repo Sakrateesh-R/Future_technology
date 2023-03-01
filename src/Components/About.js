@@ -8,7 +8,7 @@ export default function About(){
                     <div className="about-detail-context col col-sm-10 col-md-10 col-lg-12 mx-12">
                         <h1 className="about-Title"><i><u>About us</u></i></h1> <br/>
                         <h4 className="about-para">We are group of people who have been a manual quality assurance tester for more than 2 years having worked with various Domains across various Platforms with great skill sets and great vision, we are expertise in agile scrum methodology. We are transparent to the client such as reporting and maintaining hours etc.. and we will be available when ever you need assistance.</h4>
-                        <div className="about-list-sections">
+                        {/* <div className="about-list-sections">
                             <div className="about-list-section-1">
                                 <ul className="about-detail-context">
                                     <h4>Types of testing provided us.,</h4>
@@ -51,7 +51,7 @@ export default function About(){
                                 </ul><br/>
                             </div>
                             
-                        </div>
+                        </div> */}
                         
                        {/* <a className="resume mt-4" href="./Download's/Resume/Sakrateesh_Resume.pdf"download>Resume</a>
                         <div className="certification pt-5 pb-4">
