@@ -158,21 +158,26 @@ emp{
 progress{
     color:black;
 }
-.resume{
+.pdf-file{
     text-decoration: none;
     color:white;
     background: rgb(2,0,36);
     background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(0,172,255,1) 84%);
     border-radius:25px;
     padding:10px;
-    width:7%;
+    width:50px;
     font-size:20px;
+    font-weight: bolder;
     text-shadow:2px 2px 5px black;
     box-shadow: 4px 2px 4px black;
 }
-.resume:hover{
+.pdf-file:hover{
     transform:scale(1.2,1.2);
-    transition: transform 0.2s ease-in;
+    transition: transform 0.5s ease-in-out;
+    background: rgb(76, 201, 218);
+    color: White;
+    font-weight: bolder;
+    letter-spacing: 2.5px;
 }
 /*Sills edit*/
 .skills{

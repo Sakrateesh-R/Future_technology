@@ -5,12 +5,12 @@ export default function Navigation (){
 
     return(
         <div className="Navigation-Container">
-             <section class = "Header">
-        <div class="float-left info">
+             <section className = "Header">
+        <div className="float-left info">
             <img src={image} alt="profile pic" id="profile" />
             <h4>Future Technologies</h4>
         </div>
-        <div class="sticky-top d-none d-md-flex">
+        <div className="sticky-top d-none d-md-flex">
             {/* <!--Navigation--> */}
             <nav className="navi">
                 <ul className="nav-list">

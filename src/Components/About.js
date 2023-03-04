@@ -53,12 +53,11 @@ export default function About(){
                             
                         </div> */}
                         
-                       {/* <a className="resume mt-4" href="./Download's/Resume/Sakrateesh_Resume.pdf"download>Resume</a>
-                        <div className="certification pt-5 pb-4">
-                            <h3>Certification</h3>
-                            <li>Selenium Webdriver with Python FrameWork</li>
-                            <li>FULL-STACK DEVELOPER (MERN STACK) </li> 
-                        </div> */}
+                       
+                        <div className="pdf-section">
+                            <h3><i><u>Get to know more about us</u></i></h3> <br/>
+                            <a className="pdf-file mt-5" href="./Download's/Resume/Sakrateesh_Resume.pdf"download>Know more</a>
+                        </div>
                     </div>
                         
                     </div>

@@ -1,3 +1,4 @@
+import twitter from "../images/Twitter/icons8-twitter-96.png";
 
 export default function Footer(){
 
@@ -13,12 +14,13 @@ export default function Footer(){
                         </a>
                     </div>
                     <div className="flink facebook  py-3">
-                        <a href="https://www.facebook.com/david.saka.58958" target={"_blank"}>
-                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png" alt="Facebook" width="50"/>
+                        <a href="#" target={"_blank"}>
+                            <img src={twitter} alt="Facebook" width="50"/>
                         </a>
                     </div>
+                    {/* <link type="image/png" sizes="96x96" rel="icon" href=".../icons8-twitter-96.png"/> */}
                     <div className="flink Insta  py-3">
-                        <a href="https://www.instagram.com/itzs_me_saka/" target={"_blank"}>
+                        <a href="https://www.instagram.com/future_technology_23/" target={"_blank"}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/2048px-Instagram.svg.png" alt="Instagram" width="50" />
                         </a>
                     </div>
@@ -33,7 +35,7 @@ export default function Footer(){
             </div>
         </div>   
         <div className="version-container">
-            <p>Version 0.24</p>
+            <p>Version 0.25</p>
         </div>
     </div>
 
