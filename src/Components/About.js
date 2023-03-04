@@ -60,15 +60,6 @@ export default function About(){
                             <li>FULL-STACK DEVELOPER (MERN STACK) </li> 
                         </div> */}
                     </div>
-                    
-                    {/* <div className="languageknown">
-                        <h4 style={{width:"100%"}}>Programming language's</h4>
-                        <ul className="prg-lgk">
-                            <li> C/C++</li>
-                            <li>JAVA</li>
-                            <li> PYTHON</li>  
-                        </ul>
-                    </div> */}
                         
                     </div>
                      
