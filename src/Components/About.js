@@ -1,4 +1,6 @@
 
+import FTdoc from "../Documents/Future Technology.pdf";
+
 export default function About(){
 
     return(
@@ -56,7 +58,7 @@ export default function About(){
                        
                         <div className="pdf-section">
                             <h3><i><u>Get to know more about us</u></i></h3> <br/>
-                            <a className="pdf-file mt-5" href="./Download's/Resume/Sakrateesh_Resume.pdf"download>Know more</a>
+                            <a className="pdf-file mt-5" href={FTdoc} download>Know more</a>
                         </div>
                     </div>
                         
