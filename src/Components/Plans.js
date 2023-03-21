@@ -1,5 +1,5 @@
 // import { Tooltip } from "../react-tooltip";
-
+import bgVideo from "../Documents/Background_vid.mp4"
 const head = {
   name: "Software Testing Plans",
   text:
@@ -53,9 +53,12 @@ const cloudPlans = [
 export default function Plans() {
   return (
     <div className="Plan-container">
+      <video autoPlay loop muted playsInline class="video-bg"> 
+        <source src={bgVideo} type="video/mp4" />
+      </video>
         <div className = "Plan-body">
-            <div className="Plan-Header">
-                <h1>{head.name}</h1>
+            <div className="Plan-Header ">
+                <h1 className="Title">{head.name}</h1>
                 <p>{head.text}</p>
             </div><br/>
             <div className="Plan-flex-container">

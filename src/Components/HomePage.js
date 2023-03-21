@@ -1,18 +1,21 @@
+import bgVideo from "../Documents/Background_vid.mp4"
 
 export default function HomePage() {  
 
     return(
         <div className="Home-Container">
-            
+            <video autoPlay loop muted playsInline class="video-bg"> 
+                <source src={bgVideo} type="video/mp4" />
+            </video>
             <div className="about-detail row" id="ABOUT">
                 
                 <div className="about-detail-context">
-                    <h1 className="about-Title"><i><u>Our Vision</u></i></h1> <br/>
+                    <h1 className="about-Title Title"><i><u>Our Vision</u></i></h1> <br/>
                     <h4 className="about-para">Is to provide/support Freelancer's who develops Application, and doesn't have a full fledge time to test the application before handing the product over to the customer, to over-come this situation we are here to help Freelancer's in testing the application and let them know, if there are any bug/defects in it, so that they can fix the defect/bug and provide the best application to their customer</h4>
                     <div className="about-list-sections">
                         <div className="about-list-section-1">
                             <ul className="about-detail-context ">
-                                <h4>Types of testing provided us</h4>
+                                <h4 className="Title">Types of testing provided us</h4>
                                 <li>Black box Testing</li>
                                 <li>Smoke Test</li>
                                 <li>Functional Testing</li>
@@ -23,7 +26,7 @@ export default function HomePage() {
                                 <li>Build Verification Testing</li>
                             </ul><br/>
                             <ul className="about-detail-context">
-                                <h4>Gadgets available for Testing</h4>
+                                <h4 className="Title">Gadgets available for Testing</h4>
                                 <li>IPhone SE</li>
                                 <li>IPad pro</li>
                                 <li>IPhone 6s</li>
@@ -34,7 +37,7 @@ export default function HomePage() {
                         </div>
                         <div className="about-list-section-2">
                         <ul className="about-detail-context">
-                                <h4>Quality assurance for customers</h4>
+                                <h4 className="Title">Quality assurance for customers</h4>
                                 <li>Analyze,review and assess user requirements</li>
                                 <li>Test Scenarios</li>
                                 <li>Test-cases preparation</li>
@@ -45,7 +48,7 @@ export default function HomePage() {
                                 <li>Test Traceability Matrix, Gap Analysis</li>
                             </ul><br/>
                             <ul className="about-detail-context">
-                            <h4>Operating systems used for Testing</h4>
+                            <h4 className="Title">Operating systems used for Testing</h4>
                                 <li>Windows 7,8,8.1,10,11</li>
                                 <li>Android 8-13</li>
                                 <li>IOS 11 -16</li>
@@ -60,7 +63,7 @@ export default function HomePage() {
                 <div className="why-us about-detail-context col col-sm-10 col-md-10 col-lg-12 mx-12">
                     
                     <div className="Homepage-list section">
-                        <h1 className="about-Title"><i><u>Why us ?</u></i></h1> <br/>
+                        <h1 className="about-Title Title"><i><u>Why us ?</u></i></h1> <br/>
                         <ul>
                         <li>Cost efficient</li>
                         <li>Higher coverage</li>
@@ -73,7 +76,7 @@ export default function HomePage() {
                         </ul><br/>
                     </div>
                     <div className="Homepage-list section ">
-                        <h1 className="about-Title"><i><u>Our Plans.,</u></i></h1> <br/>
+                        <h1 className="about-Title Title"><i><u>Our Plans.,</u></i></h1> <br/>
                         <ul>
                         <li><a href="/plans/#Basic">Basic Plan</a></li>
                         <li><a href="/plans/#Advance">Advance Plan</a></li>

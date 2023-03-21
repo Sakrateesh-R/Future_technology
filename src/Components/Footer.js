@@ -7,7 +7,7 @@ export default function Footer(){
     <div>
         <div className="Footer-Container">  
             <div className="follow d-bottom text-light ">
-                <h2 className="pt-3 " Style={{textAlign:"center"}}>Connect with us..</h2>
+                <h2 className="pt-3 Title" Style={{textAlign:"center"}}>Connect with us..</h2>
                 <div className="follow-container d-flex justify-content-around ">
                     <div className="flink facebook  py-3">
                         <a href="mailto:futuretech23122022@gmail.com">
@@ -36,7 +36,7 @@ export default function Footer(){
             </div>
         </div>   
         <div className="version-container">
-            <p>Version 0.26</p>
+            <p>Version 0.28</p>
         </div>
     </div>
 
