@@ -36,6 +36,7 @@ export default function Footer(){
             </div>
         </div>   
         <div className="version-container">
+            <p>Copyright © 2022 Future Technology {`${"PVT LTD"}`} | Registered in INDIA. Registered No. UDYAM-TN-03-0163984 | Registered Office: 35 SSS Jaya Enclave, Kovaipudur, CBE-42</p>
             <p>Version FT 1.0</p>
         </div>
     </div>

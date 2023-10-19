@@ -16,7 +16,7 @@ export default function Navigation (){
                 <ul className="nav-list">
                     <li className="nav-list-items"><a href="/">HOME</a></li>
                     <li className="nav-list-items"><a href="/About">ABOUT</a></li>
-                    <li className="nav-list-items"><a href="/plans">PLANS</a></li>
+                    {/* <li className="nav-list-items"><a href="/plans">PLANS</a></li> */}
                 </ul>
             </nav>
         </div>
@@ -39,9 +39,9 @@ export default function Navigation (){
                     <li className="nav-item" >
                         <a className="nav-link" id ="A" href="/About">About</a>
                       </li>
-                      <li className="nav-item" >
+                      {/* <li className="nav-item" >
                           <a className="nav-link" id ="P" href="/plans">PLANS</a>
-                      </li>
+                      </li> */}
                         
                     {/* <!--<li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

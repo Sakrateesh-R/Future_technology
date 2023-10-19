@@ -394,11 +394,10 @@ progress{
 }
 
 .version-container{
-    color:whitesmoke;
-    position: fixed;
-    left: 90%;
-    bottom: 0;
-    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
 }
 
 /* About Section */
@@ -595,11 +594,9 @@ progress{
         margin:25px 0 0 0 ;
     }
     .version-container{
-        color:whitesmoke;
-        position: fixed;
-        left: 70%;
-        bottom:-2%;
-        width: 100%;
+       display: block;
+       color: white;
+       text-align: center;
     }
     
   }
