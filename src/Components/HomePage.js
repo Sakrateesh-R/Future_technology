@@ -75,7 +75,7 @@ export default function HomePage() {
 
                         </ul><br/>
                     </div>
-                    <div className="Homepage-list section ">
+                    {/* <div className="Homepage-list section ">
                         <h1 className="about-Title Title"><i><u>Our Plans.,</u></i></h1> <br/>
                         <ul>
                         <li><a href="/plans/#Basic">Basic Plan</a></li>
@@ -83,7 +83,7 @@ export default function HomePage() {
                         <li><a href="/plans/#Pro">Pro Plan</a></li>
 
                         </ul><br/>
-                    </div>
+                    </div> */}
                 {/*}
                     <h4 className="about-para">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Is to provide/support Freelancer's who develops Application, and doesn't have a full fledge time to test the application before handing the product over to the customer, to over-come this situation we are here to help Freelancer's in testing the application and let them know, if there are any bug/defects in it, so that they can fix the defect/bug and provide the best application to their customer</h4>
                 */}
