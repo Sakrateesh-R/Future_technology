@@ -1,5 +1,6 @@
 
 import image from "../images/TitleLogo.png";
+import logo from "../images/future-logo.png"
 
 export default function Navigation (){
 
@@ -7,15 +8,16 @@ export default function Navigation (){
         <div className="Navigation-Container">
              <section className = "Header">
           <div className="float-left info">
-              <img src={image} alt="profile pic" id="profile" />
-              <h4>Future Technologies</h4>
+              <img src={logo} alt="profile pic" id="profile" />
+              <h4>Future Technology</h4>
           </div>
         <div className="sticky-top d-none d-md-flex">
             {/* <!--Navigation--> */}
             <nav className="navi">
                 <ul className="nav-list">
-                    <li className="nav-list-items"><a href="/">HOME</a></li>
-                    <li className="nav-list-items"><a href="/About">ABOUT</a></li>
+                    <li className="nav-list-items"><a href="/">Home</a></li>
+                    <li className="nav-list-items"><a href="/About">About</a></li>
+                    <li className="nav-list-items"><a href="/services">Services</a></li>
                     {/* <li className="nav-list-items"><a href="/plans">PLANS</a></li> */}
                 </ul>
             </nav>

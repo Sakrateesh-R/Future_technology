@@ -1,5 +1,5 @@
 import bgVideo from "../Documents/Background_vid.mp4"
-
+import FTdoc from "../Documents/Future Technology.pdf";
 export default function HomePage() {  
 
     return(
@@ -10,52 +10,18 @@ export default function HomePage() {
             <div className="about-detail row" id="ABOUT">
                 
                 <div className="about-detail-context">
-                    <h1 className="about-Title Title"><i><u>Our Vision</u></i></h1> <br/>
-                    <h4 className="about-para">Is to provide/support Freelancer's who develops Application, and doesn't have a full fledge time to test the application before handing the product over to the customer, to over-come this situation we are here to help Freelancer's in testing the application and let them know, if there are any bug/defects in it, so that they can fix the defect/bug and provide the best application to their customer</h4>
-                    <div className="about-list-sections">
-                        <div className="about-list-section-1">
-                            <ul className="about-detail-context ">
-                                <h4 className="Title">Types of testing provided us</h4>
-                                <li>Black box Testing</li>
-                                <li>Smoke Test</li>
-                                <li>Functional Testing</li>
-                                <li>UI/UX Testing</li>
-                                <li>Regression Testing</li>
-                                <li>Compatibility-Cross and Backward (OS/Browser)</li>
-                                <li>UAT</li>
-                                <li>Build Verification Testing</li>
-                            </ul><br/>
-                            <ul className="about-detail-context">
-                                <h4 className="Title">Gadgets available for Testing</h4>
-                                <li>IPhone SE</li>
-                                <li>IPad pro</li>
-                                <li>IPhone 6s</li>
-                                <li>IPhone 13</li>
-                                <li>Redmi Note 7 Pro & Note 10</li>
-                                <li>Narzo 20A</li>
-                            </ul><br/>
-                        </div>
-                        <div className="about-list-section-2">
-                        <ul className="about-detail-context">
-                                <h4 className="Title">Quality assurance for customers</h4>
-                                <li>Analyze,review and assess user requirements</li>
-                                <li>Test Scenarios</li>
-                                <li>Test-cases preparation</li>
-                                <li>Test Plan & Test Strategies</li>
-                                <li>Regression Testing</li>
-                                <li>Defect Reporting</li>
-                                <li>Defect Validation</li>
-                                <li>Test Traceability Matrix, Gap Analysis</li>
-                            </ul><br/>
-                            <ul className="about-detail-context">
-                            <h4 className="Title">Operating systems used for Testing</h4>
-                                <li>Windows 7,8,8.1,10,11</li>
-                                <li>Android 8-13</li>
-                                <li>IOS 11 -16</li>
-                            </ul><br/>
-                        </div>
+                <div className="about-detail-context col col-sm-10 col-md-10 col-lg-12 mx-12">
+                        <h1 className="about-Title Title"><i><u>About us</u></i></h1> <br/>
+                        <h4 className="about-para">Join us at FutureTech as we pave the way for turning your digital visions into reality. Renowned for our excellence in web application development and software testing services, we are unwavering in our commitment to provide state-of-the-art solutions that propel your business to unprecedented success</h4>
                     
-                    </div>
+                        <div className="pdf-section">
+                            <h3><i><u>Get to know more about us</u></i></h3> <br/>
+                            <a className="pdf-file mt-5" href={FTdoc} download>Know more</a>
+                        </div>
+                    </div> <br/>
+                    <h1 className="about-Title Title"><i><u>Our Vision</u></i></h1> <br/>
+                    <h4 className="about-para">At Future Technology, our vision is to be at the forefront of technological innovation, empowering businesses to thrive in the digital landscape. We aspire to create a future where cutting-edge solutions not only meet but exceed the evolving needs of our clients. Through a relentless pursuit of excellence, we envision being a trusted partner, catalyzing growth and transformation for businesses worldwide. Our commitment extends beyond mere services; we strive to be architects of progress, shaping a world where technology seamlessly integrates with and enhances every facet of modern life.</h4>
+                    
 
                 </div>
                 
@@ -65,14 +31,11 @@ export default function HomePage() {
                     <div className="Homepage-list section">
                         <h1 className="about-Title Title"><i><u>Why us ?</u></i></h1> <br/>
                         <ul>
-                        <li>Cost efficient</li>
-                        <li>Higher coverage</li>
-                        <li>Transparent to client</li>
-                        <li>Higher coverage</li>
-                        <li>Flexible working hours</li>
-                        <li>Easy to reach</li>
-                        <li>People with technical knowledge</li>
-
+                        <li><b>Expertise:</b> Our team comprises skilled professionals with extensive experience in web application development and software testing across diverse industries.</li>
+                        <li><b>Innovation:</b> We stay ahead of the curve by embracing the latest technologies and methodologies to deliver innovative solutions.</li>
+                        <li><b>Client-Centric Approach:</b> Your success is our priority. We believe in building long-lasting partnerships by understanding your business needs and exceeding your expectations.</li>
+                        <li><b>Reliability:</b> With a proven track record of successful projects, you can trust Future Technology to deliver high-quality solutions on time and within budget.</li>
+                        
                         </ul><br/>
                     </div>
                     {/* <div className="Homepage-list section ">

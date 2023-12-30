@@ -96,7 +96,7 @@ li{
     transform:rotate(360);
     transition: transform 0.2s ease-in;
     border-style: solid;
-    border-color: yellow;
+    border-color: aqua;
     border: 2px 2px;
 }
 /* main sections */
@@ -387,6 +387,7 @@ progress{
 }
 
 .Footer-Container{
+    
     /* position: fixed;
     left: 0;
     bottom: 0;
@@ -569,6 +570,7 @@ progress{
 }
 .Footer-Container{
     /* background-color: black; */
+   
 }
 
 
